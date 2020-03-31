@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>827</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>40</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>解数独</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>150</y>
+      <width>401</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="cursorPosition">
+          <number>0</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>1~9</string>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLineEdit" name="lineEdit_3"/>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLineEdit" name="lineEdit_4"/>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLineEdit" name="lineEdit_5"/>
+       </item>
+       <item row="0" column="5">
+        <widget class="QLineEdit" name="lineEdit_6"/>
+       </item>
+       <item row="0" column="6">
+        <widget class="QLineEdit" name="lineEdit_7"/>
+       </item>
+       <item row="0" column="7">
+        <widget class="QLineEdit" name="lineEdit_8"/>
+       </item>
+       <item row="0" column="8">
+        <widget class="QLineEdit" name="lineEdit_9"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="lineEdit_10"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEdit_18"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="lineEdit_19"/>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLineEdit" name="lineEdit_20"/>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLineEdit" name="lineEdit_21"/>
+       </item>
+       <item row="1" column="5">
+        <widget class="QLineEdit" name="lineEdit_22"/>
+       </item>
+       <item row="1" column="6">
+        <widget class="QLineEdit" name="lineEdit_23"/>
+       </item>
+       <item row="1" column="7">
+        <widget class="QLineEdit" name="lineEdit_24"/>
+       </item>
+       <item row="1" column="8">
+        <widget class="QLineEdit" name="lineEdit_25"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLineEdit" name="lineEdit_11"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEdit_26"/>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="lineEdit_27"/>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLineEdit" name="lineEdit_28"/>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLineEdit" name="lineEdit_29"/>
+       </item>
+       <item row="2" column="5">
+        <widget class="QLineEdit" name="lineEdit_30"/>
+       </item>
+       <item row="2" column="6">
+        <widget class="QLineEdit" name="lineEdit_31"/>
+       </item>
+       <item row="2" column="7">
+        <widget class="QLineEdit" name="lineEdit_32"/>
+       </item>
+       <item row="2" column="8">
+        <widget class="QLineEdit" name="lineEdit_33"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLineEdit" name="lineEdit_12"/>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="lineEdit_34"/>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="lineEdit_35"/>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLineEdit" name="lineEdit_36"/>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLineEdit" name="lineEdit_37"/>
+       </item>
+       <item row="3" column="5">
+        <widget class="QLineEdit" name="lineEdit_38"/>
+       </item>
+       <item row="3" column="6">
+        <widget class="QLineEdit" name="lineEdit_39"/>
+       </item>
+       <item row="3" column="7">
+        <widget class="QLineEdit" name="lineEdit_40"/>
+       </item>
+       <item row="3" column="8">
+        <widget class="QLineEdit" name="lineEdit_41"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLineEdit" name="lineEdit_13"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="lineEdit_42"/>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="lineEdit_43"/>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLineEdit" name="lineEdit_44"/>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLineEdit" name="lineEdit_45"/>
+       </item>
+       <item row="4" column="5">
+        <widget class="QLineEdit" name="lineEdit_46"/>
+       </item>
+       <item row="4" column="6">
+        <widget class="QLineEdit" name="lineEdit_47"/>
+       </item>
+       <item row="4" column="7">
+        <widget class="QLineEdit" name="lineEdit_48"/>
+       </item>
+       <item row="4" column="8">
+        <widget class="QLineEdit" name="lineEdit_49"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLineEdit" name="lineEdit_14"/>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="lineEdit_50"/>
+       </item>
+       <item row="5" column="2">
+        <widget class="QLineEdit" name="lineEdit_51"/>
+       </item>
+       <item row="5" column="3">
+        <widget class="QLineEdit" name="lineEdit_52"/>
+       </item>
+       <item row="5" column="4">
+        <widget class="QLineEdit" name="lineEdit_53"/>
+       </item>
+       <item row="5" column="5">
+        <widget class="QLineEdit" name="lineEdit_54"/>
+       </item>
+       <item row="5" column="6">
+        <widget class="QLineEdit" name="lineEdit_55"/>
+       </item>
+       <item row="5" column="7">
+        <widget class="QLineEdit" name="lineEdit_56"/>
+       </item>
+       <item row="5" column="8">
+        <widget class="QLineEdit" name="lineEdit_57"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLineEdit" name="lineEdit_15"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="lineEdit_58"/>
+       </item>
+       <item row="6" column="2">
+        <widget class="QLineEdit" name="lineEdit_59"/>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLineEdit" name="lineEdit_60"/>
+       </item>
+       <item row="6" column="4">
+        <widget class="QLineEdit" name="lineEdit_61"/>
+       </item>
+       <item row="6" column="5">
+        <widget class="QLineEdit" name="lineEdit_62"/>
+       </item>
+       <item row="6" column="6">
+        <widget class="QLineEdit" name="lineEdit_63"/>
+       </item>
+       <item row="6" column="7">
+        <widget class="QLineEdit" name="lineEdit_64"/>
+       </item>
+       <item row="6" column="8">
+        <widget class="QLineEdit" name="lineEdit_65"/>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLineEdit" name="lineEdit_16"/>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLineEdit" name="lineEdit_66"/>
+       </item>
+       <item row="7" column="2">
+        <widget class="QLineEdit" name="lineEdit_67"/>
+       </item>
+       <item row="7" column="3">
+        <widget class="QLineEdit" name="lineEdit_68"/>
+       </item>
+       <item row="7" column="4">
+        <widget class="QLineEdit" name="lineEdit_69"/>
+       </item>
+       <item row="7" column="5">
+        <widget class="QLineEdit" name="lineEdit_70"/>
+       </item>
+       <item row="7" column="6">
+        <widget class="QLineEdit" name="lineEdit_71"/>
+       </item>
+       <item row="7" column="7">
+        <widget class="QLineEdit" name="lineEdit_72"/>
+       </item>
+       <item row="7" column="8">
+        <widget class="QLineEdit" name="lineEdit_73"/>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLineEdit" name="lineEdit_17"/>
+       </item>
+       <item row="8" column="1">
+        <widget class="QLineEdit" name="lineEdit_74"/>
+       </item>
+       <item row="8" column="2">
+        <widget class="QLineEdit" name="lineEdit_75"/>
+       </item>
+       <item row="8" column="3">
+        <widget class="QLineEdit" name="lineEdit_76"/>
+       </item>
+       <item row="8" column="4">
+        <widget class="QLineEdit" name="lineEdit_77"/>
+       </item>
+       <item row="8" column="5">
+        <widget class="QLineEdit" name="lineEdit_78"/>
+       </item>
+       <item row="8" column="6">
+        <widget class="QLineEdit" name="lineEdit_79"/>
+       </item>
+       <item row="8" column="7">
+        <widget class="QLineEdit" name="lineEdit_80"/>
+       </item>
+       <item row="8" column="8">
+        <widget class="QLineEdit" name="lineEdit_81"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>230</y>
+      <width>95</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>解出数独</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>重置数独</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>lineEdit</zorder>
+   <zorder>lineEdit_2</zorder>
+   <zorder>lineEdit_3</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>lineEdit_5</zorder>
+   <zorder>lineEdit_6</zorder>
+   <zorder>lineEdit_7</zorder>
+   <zorder>lineEdit_8</zorder>
+   <zorder>lineEdit_9</zorder>
+   <zorder>lineEdit_10</zorder>
+   <zorder>lineEdit_11</zorder>
+   <zorder>lineEdit_12</zorder>
+   <zorder>lineEdit_13</zorder>
+   <zorder>lineEdit_14</zorder>
+   <zorder>lineEdit_15</zorder>
+   <zorder>lineEdit_16</zorder>
+   <zorder>lineEdit_17</zorder>
+   <zorder>lineEdit_18</zorder>
+   <zorder>lineEdit_19</zorder>
+   <zorder>lineEdit_20</zorder>
+   <zorder>lineEdit_21</zorder>
+   <zorder>lineEdit_22</zorder>
+   <zorder>lineEdit_23</zorder>
+   <zorder>lineEdit_24</zorder>
+   <zorder>lineEdit_25</zorder>
+   <zorder>lineEdit_26</zorder>
+   <zorder>lineEdit_27</zorder>
+   <zorder>lineEdit_28</zorder>
+   <zorder>lineEdit_29</zorder>
+   <zorder>lineEdit_30</zorder>
+   <zorder>lineEdit_31</zorder>
+   <zorder>lineEdit_32</zorder>
+   <zorder>lineEdit_33</zorder>
+   <zorder>lineEdit_34</zorder>
+   <zorder>lineEdit_35</zorder>
+   <zorder>lineEdit_36</zorder>
+   <zorder>lineEdit_37</zorder>
+   <zorder>lineEdit_38</zorder>
+   <zorder>lineEdit_39</zorder>
+   <zorder>lineEdit_40</zorder>
+   <zorder>lineEdit_41</zorder>
+   <zorder>lineEdit_42</zorder>
+   <zorder>lineEdit_43</zorder>
+   <zorder>lineEdit_44</zorder>
+   <zorder>lineEdit_45</zorder>
+   <zorder>lineEdit_46</zorder>
+   <zorder>lineEdit_47</zorder>
+   <zorder>lineEdit_48</zorder>
+   <zorder>lineEdit_49</zorder>
+   <zorder>lineEdit_50</zorder>
+   <zorder>lineEdit_51</zorder>
+   <zorder>lineEdit_52</zorder>
+   <zorder>lineEdit_53</zorder>
+   <zorder>lineEdit_54</zorder>
+   <zorder>lineEdit_55</zorder>
+   <zorder>lineEdit_56</zorder>
+   <zorder>lineEdit_57</zorder>
+   <zorder>lineEdit_58</zorder>
+   <zorder>lineEdit_59</zorder>
+   <zorder>lineEdit_60</zorder>
+   <zorder>lineEdit_61</zorder>
+   <zorder>lineEdit_62</zorder>
+   <zorder>lineEdit_63</zorder>
+   <zorder>lineEdit_64</zorder>
+   <zorder>lineEdit_65</zorder>
+   <zorder>lineEdit_66</zorder>
+   <zorder>lineEdit_67</zorder>
+   <zorder>lineEdit_68</zorder>
+   <zorder>lineEdit_69</zorder>
+   <zorder>lineEdit_70</zorder>
+   <zorder>lineEdit_71</zorder>
+   <zorder>lineEdit_72</zorder>
+   <zorder>lineEdit_73</zorder>
+   <zorder>lineEdit_74</zorder>
+   <zorder>lineEdit_75</zorder>
+   <zorder>lineEdit_76</zorder>
+   <zorder>lineEdit_77</zorder>
+   <zorder>lineEdit_78</zorder>
+   <zorder>lineEdit_79</zorder>
+   <zorder>lineEdit_80</zorder>
+   <zorder>lineEdit_81</zorder>
+   <zorder>label</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
